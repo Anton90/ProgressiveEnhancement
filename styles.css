@@ -1,8 +1,12 @@
 body {
-  background-color: ;
+  background: linear-gradient(90deg, rgb(202, 192, 32), rgb(187, 55, 22));
+  background-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/4/47/Yuanyang_hani_farmer.jpg/1200px-Yuanyang_hani_farmer.jpg");
+  background-repeat: no-repeat;
+  background-position: bottom right;
+  background-size: cover;
   max-width: 90%;
   margin: auto;
-  
+
 }
 
 img {
@@ -28,4 +32,16 @@ a:hover {
 
 a:visited {
   color: darkgreen;
+}
+
+q {
+  display:block;
+  max-width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 160%;
+  background-color: #CAC6C5;
+  border-left: 3px dashed;
+  margin-top: 80px;
+  margin-bottom: 80px;
 }

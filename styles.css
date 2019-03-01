@@ -6,7 +6,36 @@ body {
   background-size: cover;
   max-width: 90%;
   margin: auto;
+}
 
+header:first-child h1 {
+  background-color: yellow
+}
+
+.Villagers {
+  border-left: 3px dashed orange;
+}
+
+.Farmer {
+  border-left: 3px dashed purple;
+}
+
+.Good {
+  text-transform: capitalize;
+  color: green;
+}
+
+.Bad {
+  text-transform: capitalize;
+  color: red;
+}
+
+tr:nth-child(even) {
+  background-color: grey;
+}
+
+tr:nth-child(odd) {
+  background-color: white;
 }
 
 img {
@@ -44,4 +73,5 @@ q {
   border-left: 3px dashed;
   margin-top: 80px;
   margin-bottom: 80px;
+  font-style: italic;
 }

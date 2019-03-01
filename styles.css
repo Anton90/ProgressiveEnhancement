@@ -30,6 +30,29 @@ header:first-child h1 {
   color: red;
 }
 
+#thumbsup {
+  background-image: url("thumbsup");
+  padding-right: 50px;
+  padding-bottom: 50px;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+#thumbsdown {
+  background-image: url("thumbsdown");
+  padding-right: 50px;
+  padding-bottom: 50px;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+#cat {
+  background-image: url("cat");
+  padding-right: 50px;
+  padding-bottom: 50px;
+  background-repeat: no-repeat;
+  background-position: center;
+}
 tr:nth-child(even) {
   background-color: grey;
 }
@@ -47,6 +70,10 @@ p{
   font-family: serif;
   word-spacing: 10px;
   color: darkblue;
+}
+
+h2 + p {
+  font-weight: bold;
 }
 
 a{

@@ -1,3 +1,9 @@
+* {
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
 body {
   background: linear-gradient(90deg, rgb(202, 192, 32), rgb(187, 55, 22));
   background-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/4/47/Yuanyang_hani_farmer.jpg/1200px-Yuanyang_hani_farmer.jpg");
@@ -31,27 +37,27 @@ header:first-child h1 {
 }
 
 #thumbsup {
-  background-image: url("thumbsup");
+  background-image: url("/Icons/thumbsup");
   padding-right: 50px;
   padding-bottom: 50px;
   background-repeat: no-repeat;
-  background-position: center;
+  background-position: 150px;
 }
 
 #thumbsdown {
-  background-image: url("thumbsdown");
-  padding-right: 50px;
+  background-image: url("/Icons/thumbsdown");
+  padding-right: 50%;
   padding-bottom: 50px;
   background-repeat: no-repeat;
-  background-position: center;
+  background-position: 150px;
 }
 
 #cat {
-  background-image: url("cat");
+  background-image: url("/Icons/cat");
   padding-right: 50px;
   padding-bottom: 50px;
   background-repeat: no-repeat;
-  background-position: center;
+  background-position: 200px;
 }
 tr:nth-child(even) {
   background-color: grey;

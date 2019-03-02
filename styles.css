@@ -62,6 +62,12 @@ header:first-child h1 {
   background-repeat: no-repeat;
   background-position: 250px;
 }
+
+table {
+  border: 2px solid;
+  border-collapse: collapse;
+  width: 300px;
+}
 tr:nth-child(even) {
   background-color: grey;
 }
